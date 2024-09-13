@@ -21,7 +21,7 @@
         p1.innerHTML=book.price;
         
         let img=document.createElement("img");
-        img.src=`http://localhost:8090/books/${book.profile}`;
+        img.src=`http://localhost:8090/${book.profile}`;
 
         document.getElementById("books").append(h1,p,p1,img);
 
